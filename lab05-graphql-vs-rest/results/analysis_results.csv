@@ -1,0 +1,5 @@
+analysis_results.csv
+
+research_question,metric,t_statistic,t_p_value,u_statistic,u_p_value,cohens_d,mean_rest,mean_graphql,diff_percent,conclusion,significant
+RQ1,time_ms,42.329200253898335,0.0,7056304.0,0.0,1.0929352509441803,1056.2683233333332,543.4849766666667,48.54669361364955,GraphQL é significativamente MAIS RÁPIDO que REST,True
+RQ2,size_bytes,69.34001663096812,0.0,9000000.0,0.0,1.7903515309165656,32450.828333333335,926.5866666666667,97.14464402218393,GraphQL retorna respostas significativamente MENORES que REST,True

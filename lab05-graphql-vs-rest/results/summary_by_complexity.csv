@@ -1,0 +1,11 @@
+summary_by_complexity.csv
+
+,,time_ms,time_ms,time_ms,time_ms,time_ms,time_ms,size_bytes,size_bytes,size_bytes,size_bytes,size_bytes
+,,count,mean,std,min,median,max,mean,std,min,median,max
+api_type,complexity,,,,,,,,,,,
+GraphQL,complex,1000,780.31,281.11,386.58,732.61,3312.2,1055.59,291.19,440,1146.0,1394
+GraphQL,medium,1000,467.72,146.95,278.71,431.43,1325.07,1474.37,670.41,145,1764.0,2151
+GraphQL,simple,1000,382.43,101.26,271.63,350.98,1506.82,249.8,16.04,224,252.5,281
+REST,complex,1000,1756.25,438.01,1145.39,1646.87,4196.45,35361.29,9957.74,24019,31664.0,59096
+REST,medium,1000,961.95,230.26,661.08,905.24,3129.46,55869.4,22570.5,40393,44755.5,118298
+REST,simple,1000,450.6,107.13,291.26,422.66,1367.67,6121.8,443.43,5016,6151.5,6689

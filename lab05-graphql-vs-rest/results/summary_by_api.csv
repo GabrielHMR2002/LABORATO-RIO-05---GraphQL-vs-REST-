@@ -1,0 +1,7 @@
+summary_by_api.csv
+
+,time_ms,time_ms,time_ms,time_ms,time_ms,time_ms,size_bytes,size_bytes,size_bytes,size_bytes,size_bytes
+,count,mean,std,min,median,max,mean,std,min,median,max
+api_type,,,,,,,,,,,
+GraphQL,3000,543.48,257.29,271.63,454.74,3312.2,926.59,660.59,145,1137.0,2151
+REST,3000,1056.27,611.61,291.26,906.55,4196.45,32450.83,24892.5,5016,31664.0,118298
